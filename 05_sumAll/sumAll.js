@@ -13,7 +13,6 @@ const sumAll = function(numOne, numTwo) {
         } 
         
         if (numOne > 0 && numTwo > 0){
-            let end = (numArray.length-1)
             for (let i = numOne; i < (numTwo + 1); i++){
                 numArray.push(i);
             }
@@ -22,7 +21,7 @@ const sumAll = function(numOne, numTwo) {
                 
             } 
             return sumArray;
-        }else {
+        } else {
             return "ERROR";
         }  
     } else {
